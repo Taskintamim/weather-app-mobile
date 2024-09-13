@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather-app</title>
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Domine&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya&family=Domine&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
+    <link rel="icon" href="cloudy.png"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h2 class="heading">Weather Application</h2>
+    </header>
+    <div class="container">
+        <div class="container1">
+            <p>Enter the city name:</p>
+            <input type="text" id="city" placeholder="Enter city name">
+        </div>
+        <div class="button">
+            <button id="btn" onclick="displayWeather">Get Weather</button>
+        </div>
+        <div id="result"></div>
+    </div>
+   <script src="script.js"></script>
+    <footer class="footer">
+        <span>&#169 2024 Taskin Billah Tamim | Weather App</span>
+    </footer>
+</body>
+</html>
